@@ -87,7 +87,7 @@ def main():
     # Prompt the user to enter the number of countries they want to assess
     num_countries = int(input("Enter the number of countries you want to assess: "))
 
-    # Collect data of each country and add them to the HappinessMeter
+    # Collect data for each country and add them to the HappinessMeter
     for _ in range(num_countries):
         country_name = input("Enter the name of the country: ")
         environment = int(input("Enter the environmental factor (1-10): "))
