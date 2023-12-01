@@ -13,7 +13,7 @@ class Country:
     def setCountry_name(self, country_name):
         self.__country_name = country_name
 
-    def getenviroment(self):
+    def getEnviroment(self):
         return self.__enviroment
     
     def setEnviroment(self, enviroment):
