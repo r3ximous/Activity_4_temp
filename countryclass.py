@@ -7,16 +7,16 @@ class Country:
         self.__healthcare = healthcare
         self.__education = education
     
-    def getCountry_name(self):
+    def getCountryName(self):
         return self.__country_name
     
-    def setCountry_name(self, country_name):
+    def setCountryName(self, country_name):
         self.__country_name = country_name
 
-    def getEnviroment(self):
+    def getEnvironment(self):
         return self.__enviroment
     
-    def setEnviroment(self, enviroment):
+    def setEnvironment(self, enviroment):
         self.__country_name = enviroment
 
     def getEconomy(self):
@@ -111,4 +111,3 @@ def main():
 # Call the main function
 if __name__ == "__main__":
     main()
-
